@@ -4,6 +4,15 @@ A framework for easily creating beautiful presentations using HTML. [Check out t
 
 reveal.js comes with a broad range of features including [nested slides](https://github.com/hakimel/reveal.js#markup), [Markdown contents](https://github.com/hakimel/reveal.js#markdown), [PDF export](https://github.com/hakimel/reveal.js#pdf-export), [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes) and a [JavaScript API](https://github.com/hakimel/reveal.js#api). It's best viewed in a modern browser but [fallbacks](https://github.com/hakimel/reveal.js/wiki/Browser-Support) are available to make sure your presentation can still be viewed elsewhere.
 
+## Notes about this fork
+
+This is a forked project with AngularJs added and a easy mode for simple presentations. It includes one first slide and one last slide, for greetings. You can modify its labels in data/main.json.
+
+To include middle Slide, with a index page as header, adds json array data in data/index.json. Also you can add two images at bottom, copy them to img as logo1.png and logo2.png, respectively. Finally, copy a img/question.png to show a background in greetings slide.
+
+## Problems in this fork
+
+There are some problems with css. For example, when you print to pdf the footer images does not appeart and each slide.
 
 #### More reading:
 - [Installation](#installation): Step-by-step instructions for getting reveal.js running on your computer.

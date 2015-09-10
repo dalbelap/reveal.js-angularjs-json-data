@@ -743,9 +743,13 @@ body {
   visibility: visible; }
 
 .print-pdf .reveal .slide-background {
+  margin-top: -33px;
   opacity: 1 !important;
   visibility: visible !important; }
 
+  .print-pdf .reveal .slide {
+    margin-top: -33px;
+  }
 /* Video backgrounds */
 .reveal .slide-background video {
   position: absolute;
