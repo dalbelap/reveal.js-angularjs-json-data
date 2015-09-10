@@ -1,0 +1,25 @@
+<!-- <section> -->
+          <!-- image top -->
+          <img ng-if="indexPage[counter].images.top" data-src="{{indexPage[counter].images.top}}" style="border:0px;">
+          <!-- title & description -->
+				  <h3 ng-if="indexPage[counter].title">{{indexPage[counter].title}}</h3>
+          <h4 ng-if="indexPage[counter].description">{{indexPage[counter].description}}</h4>
+
+          <!-- points -->
+          <ul ng-if="indexPage[counter].points">
+            <li ng-repeat="point in indexPage[counter].points">{{point}}</li>
+          </ul>
+
+          <!-- fragments -->
+          <span ng-if="indexPage[counter].fragments" ng-repeat="fagment in indexPage[counter].fragments" data-show="????">
+            <p class="fragment" data-fragment-index="{{$index}}">{{fagment}}</p>
+          </span>
+
+          <!-- image bottom -->
+          <img ng-if="indexPage[counter].images.bottom" data-src="{{indexPage[counter].images.bottom}}" style="border:0px;">
+
+          <!-- notes -->
+          <aside class="notes" ng-if="indexPage[counter].notes">
+            {{indexPage[counter].notes}}
+          </aside>
+<!-- </section> -->

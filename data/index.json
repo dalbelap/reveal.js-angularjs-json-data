@@ -1,0 +1,104 @@
+[
+  {
+  "title": "Introduction",
+  "description": "Description to Introduccion",
+  "points": ["Point 1", "Point 2", "Point 3"],
+  "fragments": [],
+  "images": {
+    "background": "",
+    "top": "/img/logo1.png",
+    "bottom": "",
+    "left": "",
+    "right": ""
+    },
+  "notes": "Text note for your introduction"
+  },
+{
+  "title": "Targets",
+  "description": "Description for targets",
+  "images": {
+    "logo": "",
+    "after": "",
+    "before": ""
+    },
+  "notes": "Text note for your targets"
+},
+{
+  "title": "State of Art",
+  "description": "Description for your state of art",
+  "images": {
+    "logo": "",
+    "after": "",
+    "before": ""
+    },
+  "notes": "Text note for your state of art"
+},
+{
+  "title": "Technology",
+  "description": "Description about the Technology used",
+  "images": {
+    "logo": "",
+    "after": "",
+    "before": ""
+    },
+  "notes": "Text note for your Technology"
+},
+{
+  "title": "Methodology",
+  "description": "Description about the Methodology",
+  "images": {
+    "logo": "",
+    "after": "",
+    "before": ""
+    },
+  "notes": "Text note for your methodology"
+},
+{
+  "title": "Planning",
+  "description": "Description for your Planning",
+  "images": {
+    "logo": "",
+    "after": "",
+    "before": ""
+    },
+  "notes": "Text note for your Planning"
+},
+{
+  "title": "Analysis",
+  "description": "Description for your Analysis",
+  "images": {
+    "logo": "",
+    "after": "",
+    "before": ""
+    },
+  "notes": "Text note for your Analysis"
+},
+{
+  "title": "Design",
+  "description": "Description for your Design",
+  "images": {
+    "logo": "",
+    "after": "",
+    "before": ""
+    },
+  "notes": "Text note for your Design"
+},
+{
+  "title": "Solution",
+  "description": "Description for your Solution",
+  "images": {
+    "logo": "",
+    "after": "",
+    "before": ""
+    },
+  "notes": "Text note for your Solution"
+},
+{
+  "title": "Conclusions",
+  "description": "Description for your Conclusions",
+  "images": {
+    "logo": "", "after": "", "before": ""
+    },
+  "notes": "Text note for your Conclusions"
+}
+]
